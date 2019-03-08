@@ -1,5 +1,5 @@
 function PositionControl(props) {
-    let discOrder = (props.prodData.position == 'left') ? null : 'left';
+    let discOrder = (props.prodData.position == 'left') ? null : 'left test';
     return (
         <div className="product">
             <div className="container-fluid">
